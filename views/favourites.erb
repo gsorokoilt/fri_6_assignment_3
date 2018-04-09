@@ -1,0 +1,17 @@
+<h1>Favourites</h1>
+
+  <h2>Links</h2>
+
+<ul>
+  <% @fav_links.each do |favourites| %>
+    <!-- <li> <%= favourites %> </li> -->
+
+  <li>  <a href= "<%= favourites[:url] %>"><%= favourites[:title]%></a> </li>
+
+    <!-- <a href= "http://www.bbc.co.uk/">BBC UK</a>
+    <a href= "https://www.github.com">Git Hub</a>
+    <a href= "https://japantoday.com/">Japan Today</a>
+    <a href= "https://www.hawaiilife.com">Hawaii Life</a> -->
+
+  <% end %>
+</ul>
