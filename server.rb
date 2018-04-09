@@ -8,4 +8,6 @@ get '/gallery' do
   erb :gallery
 end
 
- 
+get '/about_me' do
+  erb :biography
+end
